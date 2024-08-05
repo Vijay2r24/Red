@@ -14,14 +14,16 @@ import "react-toastify/dist/ReactToastify.css"; // Import CSS for ToastContainer
 // import About from "./components/About";
 // import Contact from "./components/Contact";
 // import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/navBar";
 // import Services from "./components/Services";
 
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
 import LoadingSpinner from "./components/Loader/Loader";
 import ProductDetails from './components/Products/ProductDetails';
-import AddToCartPage from './components/addtocart'; // Import the AddToCartPage component
+import AddToCartPage from './components/addtocart';
+import CheckoutPage from './components/Order/checkoutpage'
+import ProductList from './components/Products/productlist' // Import the AddToCartPage component
 import Login from './components/Login';
 
 
